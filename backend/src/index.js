@@ -13,9 +13,9 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve(); // added this line to fix the __dirname issue
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello World");
+// });
 
 app.use(cors({
     origin: "http://localhost:5173",
